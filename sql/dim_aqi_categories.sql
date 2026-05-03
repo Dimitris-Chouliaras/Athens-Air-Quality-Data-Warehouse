@@ -1,0 +1,11 @@
+SET FOREIGN_KEY_CHECKS = 0;
+TRUNCATE TABLE dim_aqi_categories;
+SET FOREIGN_KEY_CHECKS = 1;
+
+LOAD DATA INFILE 'C:/xampp/mysql/data/dim_aqi_categories.csv' 
+INTO TABLE dim_aqi_categories 
+CHARACTER SET utf8mb4 
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n' 
+IGNORE 1 ROWS;
