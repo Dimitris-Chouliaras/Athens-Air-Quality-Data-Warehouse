@@ -4,25 +4,25 @@ This project involves the design and implementation of a robust Data Warehouse u
 
 The goal is to transform raw environmental data into actionable insights regarding public health and urban pollution patterns.  
 
-##Key Features
-Architecture: Optimized Star Schema with a central Fact Table (fact_air_quality) and 5 Dimension Tables.  
+Key Features
+   Architecture: Optimized Star Schema with a central Fact Table (fact_air_quality) and 5 Dimension Tables.  
 
-ETL Pipeline: Comprehensive Extract, Transform, Load process using Power Query (Power BI) and DAX Studio for large-scale data migration.  
+   ETL Pipeline: Comprehensive Extract, Transform, Load process using Power Query (Power BI) and DAX Studio for large-scale data migration.  
 
-Data Cleaning: Advanced SQL scripting to handle NULL values, coordinate binning (Spatial Binning), and metric conversions.  
+   Data Cleaning: Advanced SQL scripting to handle NULL values, coordinate binning (Spatial Binning), and metric conversions.  
 
-Advanced Analytics: SQL-based insights on peak pollution hours, traffic impact (Weekdays vs. Weekends), and seasonal correlations between pollutants like NO2 and Ozone.  
+   Advanced Analytics: SQL-based insights on peak pollution hours, traffic impact (Weekdays vs. Weekends), and seasonal correlations between pollutants like NO2 and Ozone.  
 
 Tech Stack
-Database: MySQL 8.0  
+   Database: MySQL 8.0  
 
-Data Transformation: Microsoft Power BI & Power Query  
+   Data Transformation: Microsoft Power BI & Power Query  
 
-Migration: DAX Studio (In-Memory to CSV export)  
+   Migration: DAX Studio (In-Memory to CSV export)  
 
-Modeling: Visual Paradigm (ERD Design)  
+   Modeling: Visual Paradigm (ERD Design)  
 
-Visualization: Microsoft Excel (Advanced Charting & Pivot Tables)  
+   Visualization: Microsoft Excel (Advanced Charting & Pivot Tables)  
 
 Data Architecture
 The warehouse is built on a Star Schema to ensure high performance and data integrity:  
