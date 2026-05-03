@@ -4,7 +4,7 @@ This project involves the design and implementation of a robust Data Warehouse u
 
 The goal is to transform raw environmental data into actionable insights regarding public health and urban pollution patterns.  
 
-Key Features
+##Key Features
 Architecture: Optimized Star Schema with a central Fact Table (fact_air_quality) and 5 Dimension Tables.  
 
 ETL Pipeline: Comprehensive Extract, Transform, Load process using Power Query (Power BI) and DAX Studio for large-scale data migration.  
