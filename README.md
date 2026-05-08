@@ -1,7 +1,7 @@
 # Athens Air Quality Data Warehouse (2020-2023) 🌿📊
 
 ## 📌 Project Overview
-This project involves the design and implementation of a robust **Data Warehouse** using a **Star Schema** architecture to monitor and analyze air quality and meteorological conditions in Athens, Greece. The analysis spans from May 2020 to May 2023, processing over **1.7 million hourly records**.
+This project involves the design and implementation of a robust **Data Warehouse** using a **Star Schema** architecture to monitor and analyze air quality and meteorological conditions in Athens, Greece. The analysis spans from May 2020 to May 2023, processing over **1.7+ million hourly records**.
 
 The goal is to transform raw environmental data into actionable insights regarding public health and urban pollution patterns.
 
@@ -16,18 +16,18 @@ The goal is to transform raw environmental data into actionable insights regardi
 ---
 
 ## 🛠 Tech Stack
-*   **Database**: MySQL 8.0[cite: 1]
-*   **Data Transformation**: Microsoft Power BI & Power Query[cite: 1]
-*   **Migration**: DAX Studio (In-Memory to CSV export)[cite: 1]
-*   **Modeling**: Visual Paradigm (ERD Design)[cite: 1]
-*   **Visualization**: Microsoft Excel (Advanced Charting & Pivot Tables)[cite: 1]
+*   **Database**: MySQL 8.0
+*   **Data Transformation**: Microsoft Power BI & Power Query
+*   **Migration**: DAX Studio (In-Memory to CSV export)
+*   **Modeling**: Visual Paradigm (ERD Design)
+*   **Visualization**: Microsoft Excel (Advanced Charting & Pivot Tables)
 
 ---
 
 ## 📐 Data Architecture
-The warehouse is built on a Star Schema to ensure high performance and data integrity:[cite: 1]
-*   **Fact Table**: `fact_air_quality` (1,726,464 records).[cite: 1]
-*   **Dimensions**: `dim_station`, `dim_time`, `dim_terrain_specs`, `dim_aqi_categories`, `dim_pollutant_metadata`.[cite: 1]
+The warehouse is built on a Star Schema to ensure high performance and data integrity:
+*   **Fact Table**: `fact_air_quality` (1,726,464 records).
+*   **Dimensions**: `dim_station`, `dim_time`, `dim_terrain_specs`, `dim_aqi_categories`, `dim_pollutant_metadata`.
 
 ---
 
@@ -39,15 +39,16 @@ The warehouse is built on a Star Schema to ensure high performance and data inte
 ---
 
 ## 📁 Project Structure & Large Files
-Due to GitHub's file size limits, some large assets are managed as follows:[cite: 1]
-*   **/sql_scripts**: Contains DDL for schema creation and analytical queries.[cite: 1]
-*   **/documentation**: Final report in PDF format.[cite: 1]
-*   **/datasets**: Due to size (>25MB), the full dataset can be downloaded from [Zenodo](https://zenodo.org/records/11220965) and [Kaggle](https://www.kaggle.com/datasets/yekenot/air-quality-monitoring-in-european-cities).[cite: 1]
-*   **/power_bi**: The `.pbix` file is available via [insert your Google Drive link here] if it exceeds upload limits.[cite: 1]
+Due to GitHub's file size limits, some large assets are managed as follows:
+*   **/sql_scripts**: Contains DDL for schema creation and analytical queries.
+*   **/documentation**: Final report in PDF format.
+*   **/datasets**: Due to their size (>25MB), all csv files are available via the google drive link that you can find it in the dataset folder
+*   **/power_bi**: The `.pbix` file is available via the google drive link that you can find it in the power bi folder
+*   **raw dataset**: The full dataset can be downloaded from [Zenodo](https://zenodo.org/records/11220965) and [Kaggle](https://www.kaggle.com/datasets/yekenot/air-quality-monitoring-in-european-cities).
 
 ---
 
 ## 🎓 Credits
-*   **Data Sources**: Copernicus Atmosphere Monitoring Service (CAMS) & Zenodo.[cite: 1]
-*   **Standards**: European Environment Agency (EEA) Air Quality Index.[cite: 1]
-*   **Author**: Chouliaras Dimitrios[cite: 1]
+*   **Data Sources**: Copernicus Atmosphere Monitoring Service (CAMS) & Zenodo.
+*   **Standards**: European Environment Agency (EEA) Air Quality Index.
+*   **Author**: Chouliaras Dimitrios
