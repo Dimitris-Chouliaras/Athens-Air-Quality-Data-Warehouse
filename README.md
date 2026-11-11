@@ -32,9 +32,9 @@ The warehouse is built on a Star Schema to ensure high performance and data inte
 ---
 
 ## 💡 Key Insights
-*   **Peak Traffic Impact**: NO2 levels peak during morning (05:00-08:00) and evening (19:00-22:00) hours, directly correlating with urban commute.[cite: 1]
-*   **The Weekend Effect**: NO2 levels drop significantly during weekends, while PM10 and O3 show different patterns due to heating and photochemical reactions.[cite: 1]
-*   **Spatial Analysis**: The Central Sector of Athens exhibits the highest frequency of limit exceedances.[cite: 1]
+*   **Peak Traffic Impact**: NO2 levels peak during morning (05:00-08:00) and evening (19:00-22:00) hours, directly correlating with urban commute.
+*   **The Weekend Effect**: NO2 levels drop significantly during weekends, while PM10 and O3 show different patterns due to heating and photochemical reactions.
+*   **Spatial Analysis**: The Central Sector of Athens exhibits the highest frequency of limit exceedances.
 
 ---
 
